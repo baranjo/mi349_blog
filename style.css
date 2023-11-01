@@ -100,5 +100,11 @@
   input[type="submit"]:hover {
     background: #555;
   }
+
+  .blog-post {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+  }
   
   
