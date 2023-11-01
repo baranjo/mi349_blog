@@ -102,15 +102,8 @@
   
   input[type="submit"]:hover {
     background: #555;
-  }
+  }  
 
-  .blog-post {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-  }
-  
-  /* Container styles */
     .blog-post {
         width: 80%; 
         margin: 0 auto;  /* centers the container if needed */
@@ -119,7 +112,7 @@
 
     /* Image styles */
     .blog-post img {
-        width: 40%;
+        width: 30%;
         height: auto; 
         display: block; 
     }
