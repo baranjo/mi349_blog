@@ -31,7 +31,6 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    width: 100%;
   }
   
   nav a {
@@ -56,7 +55,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   
   section {
@@ -64,11 +62,12 @@
   }
   
   .image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     display: block;
-    margin: 0 auto;
-}
+    margin: 0 auto; /* Center images */
+  }
   
   /* Flexbox Form Layout */
   form {
@@ -108,14 +107,26 @@
   .blog-post {
     display: flex;
     flex-direction: row;
-    height: 500px;
     width: 80%;
-    margin: 0 auto;
   }
+  
+  /* Container styles */
+    .blog-post {
+        width: 80%; 
+        margin: 0 auto;  /* centers the container if needed */
+        display: flex;  /* uses flexbox to place items side-by-side */
+        gap: 20px;      /* space between the image and the paragraph */
+    }
 
-  .text {
-    border: #000;
-    border-width: 1rem;
-    padding: 40px;
-  }
+    /* Image styles */
+    .blog-post img {
+        width: 50%;  /* Adjust this value to your preference */
+        height: auto; 
+        display: block; 
+    }
+
+    /* Paragraph styles */
+    .blog-post p {
+        flex: 1;  /* takes the remaining space in the container */
+    }
   
