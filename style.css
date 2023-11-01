@@ -64,11 +64,11 @@
   }
   
   .image {
-    width: auto;
+    max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Center images */
-  }
+    margin: 0 auto;
+}
   
   /* Flexbox Form Layout */
   form {
