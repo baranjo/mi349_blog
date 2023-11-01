@@ -109,7 +109,8 @@
   .blog-post {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    height: 50vh;
+    width: auto;
   }
 
   .text {
