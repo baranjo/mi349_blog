@@ -51,9 +51,10 @@
     padding: 20px;
   }
   
-  /* article {
-    flex: 1 1 600px; /* Two column layout when screen allows */
-  /* } */ */
+  article {
+    display: flex;
+    flex-direction: row;
+  }
   
   section {
     flex: 1 1 300px; /* Smaller sections */
