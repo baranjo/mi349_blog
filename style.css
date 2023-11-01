@@ -114,7 +114,7 @@
 
   .text {
     border: #000;
-    border-width: 2px;
-    padding: 20px;
+    border-width: 1rem;
+    padding: 40px;
   }
   
