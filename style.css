@@ -112,7 +112,7 @@
 
     /* Image styles */
     .blog-post img {
-        width: 30%;
+        max-width: 100%;
         height: auto; 
         display: block; 
     }
