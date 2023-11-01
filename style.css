@@ -51,9 +51,9 @@
     padding: 20px;
   }
   
-  article {
+  /* article {
     flex: 1 1 600px; /* Two column layout when screen allows */
-  }
+  /* } */ */
   
   section {
     flex: 1 1 300px; /* Smaller sections */
