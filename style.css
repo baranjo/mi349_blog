@@ -31,8 +31,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-radius: 30px;
-    border: 2px 0 black;
+    border: 2px solid black;
   }
   
   nav a {
