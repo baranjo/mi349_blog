@@ -31,6 +31,8 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-radius: 30px;
+    border: 2px 0 black;
   }
   
   nav a {
@@ -112,7 +114,7 @@
 
     /* Image styles */
     .blog-post img {
-        max-width: 100%;
+        width: 30%;
         height: auto; 
         display: block; 
     }
