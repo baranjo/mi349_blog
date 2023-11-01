@@ -115,18 +115,18 @@
         width: 80%; 
         margin: 0 auto;  /* centers the container if needed */
         display: flex;  /* uses flexbox to place items side-by-side */
-        gap: 20px;      /* space between the image and the paragraph */
     }
 
     /* Image styles */
     .blog-post img {
-        width: 50%;  /* Adjust this value to your preference */
+        width: 40%;
         height: auto; 
         display: block; 
     }
 
     /* Paragraph styles */
     .blog-post p {
-        flex: 1;  /* takes the remaining space in the container */
+        flex: 1;
+        padding: 50px;
     }
   
