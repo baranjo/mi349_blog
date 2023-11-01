@@ -20,6 +20,9 @@
   
   p {
     margin-bottom: 1rem;
+    flex: 1;
+    overflow: hidden;
+    padding: 0 15px;
   }
   
   /* Layout */
@@ -105,8 +108,18 @@
 
   .blog-post {
     display: flex;
-    flex-direction: row;
-    width: 80%;
   }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    flex: 1;
+    overflow: hidden;
+    padding: 0 15px; /* Optional padding for spacing */
+  }
+  
   
   
