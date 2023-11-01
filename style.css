@@ -55,7 +55,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   
   section {
@@ -106,13 +105,7 @@
   }
   
   table {
-    width: 10%;
-  }
-
-  th {
-    align-self: left;
-    align-content: left;
-    align-items: left;
+    width: 8%;
   }
 
     .blog-post {
