@@ -157,3 +157,7 @@ img[alt*="Jack Attack"] {
 img[alt*="Spartan Stadium"] {
     border: 5px solid green;
 }
+
+img[alt*="Joey Baran"] {
+  border: 5px solid blue;
+}
