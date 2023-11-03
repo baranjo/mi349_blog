@@ -4,127 +4,156 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  /* Typography */
-  body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.6;
-    color: #fff;
-    background-color: #023d13;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    margin-bottom: 1rem;
-  }
-  
-  /* Layout */
-  header {
-    background: #999999;
-    color: #000;
-    padding: 1rem 0;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    height: 125px;
-  }
-  
-  nav a {
-    color: #333;
-    margin: 0 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  nav a:hover {
-    color: #ddd;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  section {
-    flex: 1 1 300px; /* Smaller sections */
-  }
-  
-  .image {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Center images */
-  }
-  
-  /* Flexbox Form Layout */
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-    background: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background: #555;
-  }
-  
-  table {
-    width: 8%;
-  }
 
-    .blog-post {
-        width: 80%; 
-        margin: 0 auto;  /* centers the container if needed */
-        display: flex;  /* uses flexbox to place items side-by-side */
-    }
+html {
+  background-color: #ccc;
+}
 
-    /* Image styles */
-    .blog-post img {
-        width: 30%;
-        height: auto; 
-        display: block; 
-    }
+/* Typography */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 40px;
+  padding: 40px;
+  color: #242424;
+  border-top: 10px solid #242424;
+  background: #fff;
+}
 
-    /* Paragraph styles */
-    .blog-post p {
-        flex: 1;
-        padding: 50px;
-    }
-  
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+#blog {
+  border-top: 1px dotted #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px dotted #ccc;
+  width: 80%;
+}
+
+/* Layout */
+header {
+  background: #999999;
+  color: #000;
+  padding: 1rem 0;
+  text-align: center;
+  top: 20px;
+  z-index: 1000;
+  width: 100%;
+}
+
+.sticky {
+  position: sticky;
+  z-index: 2000;
+}
+
+nav a {
+  color: #333;
+  margin: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: sticky;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  flex: 1 1 300px; /* Smaller sections */
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center images */
+}
+
+/* Flexbox Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
+
+table {
+  width: 8%;
+}
+
+/* Image styles */
+.blog-post img {
+  flex: 1;
+  height: auto; 
+  display: block; 
+}
+
+/* Paragraph styles */
+.blog-post p {
+  flex: 3;
+  padding: 50px;
+}
+
+img[alt*="Jack Attack"] {
+  border: 5px solid red;
+}
+
+img[alt*="Spartan Stadium"] {
+    border: 5px solid green;
+}
